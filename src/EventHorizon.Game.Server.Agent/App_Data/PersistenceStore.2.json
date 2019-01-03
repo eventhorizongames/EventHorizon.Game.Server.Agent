@@ -1,0 +1,1587 @@
+[{
+    "Id": "0c1d6735-ab07-46cc-9c67-d1be38fa9f43",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "0537e21c-ae99-4748-a29d-804fb5b55ca4",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "62b51b39-c709-431a-9246-1481d79a8f7c",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "70aa0d2e-49b6-434b-9562-1ca4fcf0fc0e",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "6ae30fe8-2611-4619-9904-2639806bfb04",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "db67da2f-839c-4574-b76b-ac28e1cc0481",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "e606747c-3d73-436b-a60f-c6d4c41f633e",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "d19c5322-71f3-4ac6-b33d-89903bb79634",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "3d64523b-6800-44b7-8408-d7b626f6bd8e",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "f1e1d3a0-29f6-4010-ab8f-16f6e634f578",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "e026f315-c6ee-49e9-9f48-bd40869079e7",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "6f112c29-2e85-4e45-a955-7e720bb51bca",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "7e0127fd-38f6-4bf4-ac90-2095bc025780",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "4131d735-3a96-4e1f-9af7-132931114c55",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "first-npc",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "09f5aac0-4662-4495-afbe-02bb02eb2fe4",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "c47e5d7e-0ba8-48e6-b1d3-d9a362175e14",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "6bcefbe7-565a-4ad1-988f-b4f20b8365aa",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "8a02b89a-c2dd-46b0-b80e-a0f99f10287e",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "73d2b284-7853-4ad1-a141-4558e30e97b1",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "c1b54af0-09ff-46fa-adb4-b950a68bc8da",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "8f277141-46fd-4f68-b99e-77879e3c496f",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "cf47faf4-850d-44c6-b0c1-f929442c3857",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "bea0c06b-48ad-4b05-a27f-d24f126218a9",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "c48e9eec-5ddd-4af7-8eb1-459af82a7400",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}, {
+    "Id": "51e580bf-6e1b-4760-b493-bf4b6ca51456",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CurrentZone": "...",
+        "ZoneTag": "testing",
+        "Position": {
+            "X": 0.0,
+            "Y": 0.0,
+            "Z": 0.0
+        }
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "ownerState": {
+            "name": "NONE"
+        },
+        "movementState": {
+            "Speed": 1.0
+        },
+        "routine": {
+            "name": "MOVE"
+        },
+        "defaultRoutine": {
+            "name": "WANDER"
+        },
+        "wander": {
+            "lookDistance": 25
+        },
+        "life": {
+            "Health": 0
+        },
+        "lifeState": {
+            "condition": {
+                "name": "ALIVE"
+            },
+            "healthPoints": 9508,
+            "maxHealthPoints": 10000,
+            "actionPoints": 10,
+            "maxActionPoints": 10,
+            "attack": 1
+        },
+        "levelState": {
+            "healthPointsLevel": 1,
+            "actionPointsLevel": 1,
+            "attackLevel": 1,
+            "experience": 0,
+            "allTimeExperience": 3
+        },
+        "skillState": {
+            "skillList": null
+        },
+        "modelState": {
+            "animationList": [],
+            "mesh": {
+                "type": "GLTF",
+                "path": "/Assets/Meshes/",
+                "file": "Default_Mesh.glb"
+            }
+        }
+    }
+}]

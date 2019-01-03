@@ -1,0 +1,69 @@
+[{
+    "Id": "first-npc",
+    "Name": "First Ever NPC",
+    "Position": {
+        "CanMove": true,
+        "CurrentPosition": {
+            "X": 8.0,
+            "Y": 0.0,
+            "Z": 32.0
+        },
+        "NextMoveRequest": "2018-12-30T19:38:40.3566187Z",
+        "MoveToPosition": {
+            "X": 12.0,
+            "Y": 0.0,
+            "Z": 32.0
+        },
+        "CurrentZone": "...",
+        "ZoneTag": "testing"
+    },
+    "TagList": ["npc", "wandering", "weak"],
+    "Data": {
+        "OwnerState": {
+            "Name": "NONE"
+        },
+        "MovementState": {
+            "Speed": 1.0
+        },
+        "Routine": {
+            "Name": "MOVE"
+        },
+        "DefaultRoutine": {
+            "Name": "WANDER"
+        },
+        "Wander": {
+            "LookDistance": 25
+        },
+        "Life": {
+            "Health": 0
+        },
+        "LifeState": {
+            "Condition": {
+                "Name": "ALIVE"
+            },
+            "HealthPoints": 9508,
+            "MaxHealthPoints": 10000,
+            "ActionPoints": 10,
+            "MaxActionPoints": 10,
+            "Attack": 1
+        },
+        "LevelState": {
+            "HealthPointsLevel": 1,
+            "ActionPointsLevel": 1,
+            "AttackLevel": 1,
+            "Experience": 0,
+            "AllTimeExperience": 3
+        },
+        "SkillState": {
+            "SkillList": null
+        },
+        "ModelState": {
+            "AnimationList": [],
+            "Mesh": {
+                "Type": "GLTF",
+                "Path": "/Assets/Meshes/",
+                "File": "Default_Mesh.glb"
+            }
+        }
+    }
+}]

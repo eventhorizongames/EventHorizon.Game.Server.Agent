@@ -1,0 +1,17 @@
+version: '2'
+services: 
+  web:
+    restart: always
+    image: ehz/game/server/agent
+    environment:
+      VIRTUAL_HOST: server-agent.demo.projecteventhorizon.com
+      LETSENCRYPT_HOST: server-agent.demo.projecteventhorizon.com
+      LETSENCRYPT_EMAIL: cody.anhorn@hotmail.com
+      ASPNETCORE_ENVIRONMENT: Production
+      ASPNETCORE_URLS: http://*:5000
+    ports:
+      - 5000
+    volumes:
+      - ~/EventHorizon.Configuration/EventHorizon.Game.Server.Agent/appsettings.Production.json:/app/appsettings.Production.json
+      - ~/EventHorizon.Configuration/EventHorizon.Game.Server.Agent/App_Data:/app/App_Data
+    network_mode: "bridge"
