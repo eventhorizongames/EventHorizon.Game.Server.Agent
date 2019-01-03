@@ -2,7 +2,7 @@ FROM microsoft/dotnet:2.2-sdk AS build
 WORKDIR /source
 
 # copy csproj and restore as distinct layers
-COPY ./*.sln ./NuGet.config  ./
+COPY ./*.sln ./NuGet.Config  ./
 
 # Copy the main source project files
 COPY src/*/*.csproj ./

@@ -249,3 +249,5 @@ appsettings.*.json
 
 data/*.json
 App_Data/*.json
+
+NuGet.Config
