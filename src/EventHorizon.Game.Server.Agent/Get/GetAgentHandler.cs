@@ -6,7 +6,7 @@ using MediatR;
 
 namespace EventHorizon.Game.Server.Agent.Get
 {
-    public struct GetAgentHandler : IRequestHandler<GetAgentEvent, AgentEntity>
+    public class GetAgentHandler : IRequestHandler<GetAgentEvent, AgentEntity>
     {
         readonly IAgentRepository _agentRepository;
         public GetAgentHandler(IAgentRepository agentRepository)

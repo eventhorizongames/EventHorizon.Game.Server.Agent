@@ -7,7 +7,7 @@ using MediatR;
 
 namespace EventHorizon.Game.Server.Agent.Get
 {
-    public struct GetAgentsByZoneTagHandler : IRequestHandler<GetAgentsByZoneTagEvent, IList<AgentEntity>>
+    public class GetAgentsByZoneTagHandler : IRequestHandler<GetAgentsByZoneTagEvent, IList<AgentEntity>>
     {
         readonly IAgentRepository _agentRepository;
         public GetAgentsByZoneTagHandler(IAgentRepository agentRepository)

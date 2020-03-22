@@ -5,7 +5,7 @@ using MediatR;
 
 namespace EventHorizon.Game.Server.Agent.Update
 {
-    public struct UpdateAgentHandler : INotificationHandler<UpdateAgentEvent>
+    public class UpdateAgentHandler : INotificationHandler<UpdateAgentEvent>
     {
         readonly IAgentRepository _agentRepository;
         public UpdateAgentHandler(

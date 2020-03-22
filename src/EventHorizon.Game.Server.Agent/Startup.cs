@@ -1,43 +1,33 @@
 ﻿using System;
-using System.Collections.Generic;
 using System.Linq;
 using System.Net;
-using System.Reflection;
-using System.Runtime.Loader;
-using System.Threading.Tasks;
 using EventHorizon.Game.Server.Agent.Bus;
 using EventHorizon.Game.Server.Agent.Controllers;
 using EventHorizon.Performance;
 using EventHorizon.Performance.Impl;
 using EventHorizon.Game.Server.Agent.State;
-using EventHorizon.Game.Server.Agent.State.Impl;
-using EventHorizon.Game.Server.Agent.State.Schedule;
-using EventHorizon.Schedule;
-using IdentityModel.AspNetCore.OAuth2Introspection;
+using EventHorizon.TimerService;
 using MediatR;
-using Microsoft.AspNetCore.Authentication;
-using Microsoft.AspNetCore.Authentication.JwtBearer;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Hosting;
-using Microsoft.AspNetCore.Http;
-using Microsoft.AspNetCore.SpaServices.Webpack;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.Extensions.Options;
 using Microsoft.AspNetCore.Mvc;
+using Microsoft.Extensions.Hosting;
+using System.Reflection;
 
 namespace EventHorizon.Game.Server.Agent
 {
     public class Startup
     {
-        public Startup(IConfiguration configuration, IHostingEnvironment env)
+        public Startup(IConfiguration configuration, IWebHostEnvironment env)
         {
             Configuration = configuration;
             HostingEnvironment = env;
         }
         public IConfiguration Configuration { get; }
-        public IHostingEnvironment HostingEnvironment { get; }
+        public IWebHostEnvironment HostingEnvironment { get; }
 
         public void ConfigureServices(IServiceCollection services)
         {
@@ -47,7 +37,6 @@ namespace EventHorizon.Game.Server.Agent
                 System.Net.ServicePointManager.SecurityProtocol = SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
             }
             services.AddHttpClient();
-            services.AddMediatR();
 
             services.AddAuthentication("Bearer")
                 .AddIdentityServerAuthentication(options =>
@@ -57,7 +46,7 @@ namespace EventHorizon.Game.Server.Agent
                     options.ApiName = Configuration["Auth:ApiName"];
                     options.TokenRetriever = WebSocketTokenRetriever.FromHeaderAndQueryString;
                 });
-            services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
+            services.AddMvc();
             services.AddSignalR();
             services.AddCors(options => options.AddPolicy("CorsPolicy",
                 builder =>
@@ -79,14 +68,13 @@ namespace EventHorizon.Game.Server.Agent
 
             services.AddSingleton<IPerformanceTracker, PerformanceTracker>();
 
-            services.AddScheduler((sender, args) =>
-            {
-                Console.WriteLine(args.Exception.Message);
-                args.SetObserved();
-            });
+            services.AddTimer();
+            services.AddMediatR(
+                typeof(Startup).Assembly
+            );
         }
 
-        public void Configure(IApplicationBuilder app, IHostingEnvironment env, ILoggerFactory loggerFactory)
+        public void Configure(IApplicationBuilder app, IWebHostEnvironment env, ILoggerFactory loggerFactory)
         {
             app.UseAgentState();
 
@@ -95,14 +83,15 @@ namespace EventHorizon.Game.Server.Agent
                 app.UseDeveloperExceptionPage();
             }
 
+            app.UseRouting();
             app.UseCors("CorsPolicy");
             app.UseAuthentication();
+            app.UseAuthorization();
 
-            app.UseSignalR(routes =>
+            app.UseEndpoints(routes =>
             {
                 routes.MapHub<AgentBus>("/agent");
             });
-            app.UseMvc();
         }
     }
 }

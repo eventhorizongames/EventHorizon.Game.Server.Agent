@@ -1,1 +1,139 @@
-[{"Id":"first-npc","Name":"First Ever NPC","Position":{"CurrentZone":"...","ZoneTag":"testing","Position":{"X":0.0,"Y":0.0,"Z":0.0}},"TagList":["npc","wandering","weak"],"Data":{"ownerState":{"name":"NONE"},"movementState":{"Speed":1.0},"routine":{"name":"MOVE"},"defaultRoutine":{"name":"WANDER"},"wander":{"lookDistance":25},"life":{"Health":0},"lifeState":{"condition":{"name":"ALIVE"},"healthPoints":9508,"maxHealthPoints":10000,"actionPoints":10,"maxActionPoints":10,"attack":1},"levelState":{"healthPointsLevel":1,"actionPointsLevel":1,"attackLevel":1,"experience":0,"allTimeExperience":3},"skillState":{"skillList":null},"modelState":{"animationList":[],"mesh":{"type":"GLTF","path":"/Assets/Meshes/","file":"Default_Mesh.glb"}}}}]
+[
+    {
+        "Id": "f459465-5b5f-4ea6-bda7-d87dfb690d2d",
+        "Name": "First Ever NPC",
+        "Transform": {
+            "Position": {}
+        },
+        "Location": {
+            "CurrentZone": "server-zone-demo",
+            "ZoneTag": "home"
+        },
+        "TagList": [
+            "npc",
+            "wandering",
+            "weak"
+        ],
+        "Data": {
+            "ownerState": {
+                "ownerId": null,
+                "canBeCaptured": false,
+                "ownerFollowDistance": 0
+            },
+            "movementState": {
+                "speed": 1
+            },
+            "routine": {
+                "name": "MOVE"
+            },
+            "defaultRoutine": {
+                "name": "WANDER"
+            },
+            "wander": {
+                "lookDistance": 25
+            },
+            "life": {
+                "Health": 0
+            },
+            "lifeState": {
+                "condition": {
+                    "name": null
+                },
+                "healthPoints": 9508,
+                "maxHealthPoints": 10000,
+                "actionPoints": 10,
+                "maxActionPoints": 10,
+                "attack": 1
+            },
+            "levelState": {
+                "healthPointsLevel": 1,
+                "actionPointsLevel": 1,
+                "attackLevel": 1,
+                "experience": 0,
+                "allTimeExperience": 3
+            },
+            "skillState": {
+                "skillMap": {
+                    "list": [
+                        {
+                            "id": "Skills_FireBall.json",
+                            "cooldownFinishes": "2020-03-21T16:48:59.2718649-05:00"
+                        },
+                        {
+                            "id": "Skills_MoveTo.json",
+                            "cooldownFinishes": "2020-03-21T16:48:59.2721561-05:00"
+                        },
+                        {
+                            "id": "Skills_CaptureTarget.json",
+                            "cooldownFinishes": "2020-03-21T16:48:59.2721574-05:00"
+                        }
+                    ]
+                }
+            },
+            "modelState": {
+                "animationList": [],
+                "scalingDeterminant": null,
+                "mesh": {
+                    "type": "GLTF",
+                    "assetId": "DEFAULT_MESH"
+                }
+            },
+            "locationState": {
+                "canMove": false,
+                "nextMoveRequest": "0001-01-01T00:00:00",
+                "moveToPosition": {},
+                "currentZone": "server-zone-demo",
+                "zoneTag": "home"
+            },
+            "pathState": {
+                "path": null,
+                "moveTo": {}
+            },
+            "agentWildState": {
+                "distanceToRunAway": 25,
+                "deltaDistance": 5
+            },
+            "behavior": {
+                "treeId": "DEFAULT"
+            },
+            "companionState": {
+                "defaultBehaviorTreeId": "$DEFAULT$SHAPE.json"
+            },
+            "interactionState": {
+                "active": true,
+                "list": null
+            },
+            "BehaviorTreeState": {
+                "containsNext": false,
+                "checkTraversal": false,
+                "activeNode": {
+                    "token": 1075178016,
+                    "type": {
+                        "name": "ACTION",
+                        "isTraversal": false
+                    },
+                    "status": "SUCCESS",
+                    "nodeList": null,
+                    "isTraversal": false,
+                    "fire": "$DEFAULT$SCRIPT",
+                    "failGate": 0,
+                    "reset": false
+                },
+                "activeTraversal": {
+                    "token": 0,
+                    "type": {
+                        "name": null,
+                        "isTraversal": false
+                    },
+                    "status": null,
+                    "nodeList": null,
+                    "isTraversal": false,
+                    "fire": null,
+                    "failGate": 0,
+                    "reset": false
+                },
+                "isValid": true
+            }
+        }
+    }
+]
