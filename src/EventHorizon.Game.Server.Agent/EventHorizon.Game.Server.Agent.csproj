@@ -1,29 +1,31 @@
 <Project Sdk="Microsoft.NET.Sdk.Web">
 
-  <PropertyGroup>
-    <TargetFramework>netcoreapp3.1</TargetFramework>
-  </PropertyGroup>
+    <PropertyGroup>
+        <TargetFramework>netcoreapp3.1</TargetFramework>
+    </PropertyGroup>
 
-  <ItemGroup>
-    <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
-    
-    <PackageReference Include="MediatR" Version="8.0.1" />
-    <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
+    <ItemGroup>
+        <PackageReference Include="Microsoft.AspNetCore.SignalR.Protocols.NewtonsoftJson" Version="3.1.2" />
+        
+        <PackageReference Include="IdentityServer4.AccessTokenValidation" Version="3.0.1" />
 
-    <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
-    <PackageReference Include="Serilog.Enrichers.Thread" Version="3.1.0" />
-    <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
-    <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
-    <PackageReference Include="Serilog.Sinks.ElasticSearch" Version="8.0.1" />
-  </ItemGroup>
+        <PackageReference Include="MediatR" Version="8.0.1" />
+        <PackageReference Include="MediatR.Extensions.Microsoft.DependencyInjection" Version="8.0.0" />
 
-  <ItemGroup>
-    <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
-  </ItemGroup>
+        <PackageReference Include="Serilog.AspNetCore" Version="3.2.0" />
+        <PackageReference Include="Serilog.Enrichers.Thread" Version="3.1.0" />
+        <PackageReference Include="Serilog.Settings.Configuration" Version="3.1.0" />
+        <PackageReference Include="Serilog.Sinks.Console" Version="3.1.1" />
+        <PackageReference Include="Serilog.Sinks.ElasticSearch" Version="8.0.1" />
+    </ItemGroup>
 
-  <ItemGroup>
-    <ProjectReference Include="..\EventHorizon.Performance\EventHorizon.Performance.csproj" />
-    <ProjectReference Include="..\EventHorizon.TimerService\EventHorizon.TimerService.csproj" />
-  </ItemGroup>
+    <ItemGroup>
+        <DotNetCliToolReference Include="Microsoft.VisualStudio.Web.CodeGeneration.Tools" Version="2.0.4" />
+    </ItemGroup>
+
+    <ItemGroup>
+        <ProjectReference Include="..\EventHorizon.Performance\EventHorizon.Performance.csproj" />
+        <ProjectReference Include="..\EventHorizon.TimerService\EventHorizon.TimerService.csproj" />
+    </ItemGroup>
 
 </Project>

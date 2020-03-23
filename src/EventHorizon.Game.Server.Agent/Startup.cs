@@ -13,9 +13,7 @@ using Microsoft.AspNetCore.Hosting;
 using Microsoft.Extensions.Configuration;
 using Microsoft.Extensions.DependencyInjection;
 using Microsoft.Extensions.Logging;
-using Microsoft.AspNetCore.Mvc;
 using Microsoft.Extensions.Hosting;
-using System.Reflection;
 
 namespace EventHorizon.Game.Server.Agent
 {
@@ -47,7 +45,8 @@ namespace EventHorizon.Game.Server.Agent
                     options.TokenRetriever = WebSocketTokenRetriever.FromHeaderAndQueryString;
                 });
             services.AddMvc();
-            services.AddSignalR();
+            services.AddSignalR()
+                .AddNewtonsoftJsonProtocol();
             services.AddCors(options => options.AddPolicy("CorsPolicy",
                 builder =>
                 {
