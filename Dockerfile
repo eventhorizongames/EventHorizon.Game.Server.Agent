@@ -1,4 +1,5 @@
-FROM microsoft/dotnet:2.2-sdk AS build
+# Stage - Build
+FROM mcr.microsoft.com/dotnet/core/sdk:3.1 AS build
 WORKDIR /source
 
 # copy csproj and restore as distinct layers
@@ -20,11 +21,13 @@ COPY test/. ./test/
 
 RUN dotnet build
 
+# Stage - publish
 FROM build AS publish
 WORKDIR /source
 RUN dotnet publish --output bin/publish --configuration Release
 
-FROM microsoft/dotnet:2.2-aspnetcore-runtime AS runtime
+# Stage - runtime
+FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS runtime
 WORKDIR /app
 COPY --from=publish /source/src/EventHorizon.Game.Server.Agent/bin/publish ./
 ENTRYPOINT ["dotnet", "EventHorizon.Game.Server.Agent.dll"]
