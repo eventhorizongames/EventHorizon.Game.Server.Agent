@@ -24,10 +24,10 @@ RUN dotnet build
 # Stage - publish
 FROM build AS publish
 WORKDIR /source
-RUN dotnet publish --output bin/publish --configuration Release
+RUN dotnet publish --output /app/ --configuration Release --no-restore ./src/EventHorizon.Game.Server.Agent/EventHorizon.Game.Server.Agent.csproj
 
 # Stage - runtime
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS runtime
 WORKDIR /app
-COPY --from=publish /source/src/EventHorizon.Game.Server.Agent/bin/publish ./
+COPY --from=dotnet-build /app .
 ENTRYPOINT ["dotnet", "EventHorizon.Game.Server.Agent.dll"]
