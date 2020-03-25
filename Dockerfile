@@ -29,5 +29,5 @@ RUN dotnet publish --output /app/ --configuration Release --no-restore ./src/Eve
 # Stage - runtime
 FROM mcr.microsoft.com/dotnet/core/aspnet:3.1 AS runtime
 WORKDIR /app
-COPY --from=dotnet-build /app .
+COPY --from=publish /app .
 ENTRYPOINT ["dotnet", "EventHorizon.Game.Server.Agent.dll"]
