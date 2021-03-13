@@ -24,6 +24,7 @@ namespace EventHorizon.Game.Server.Agent
                         .Enrich.WithProperty("EnvironmentName", ctx.HostingEnvironment.EnvironmentName)
                         .Enrich.WithProperty("PlatformId", ctx.Configuration["OwnerDetails:PlatformId"])
                         .Enrich.WithProperty("ServiceName", "Agent")
+                        .Enrich.WithProperty("ApplicationVersion", ctx.Configuration["APPLICATION_VERSION"])
                         .ReadFrom.Configuration(ctx.Configuration)
                         .ConfigureElasticsearchLogging(ctx)
                     );
