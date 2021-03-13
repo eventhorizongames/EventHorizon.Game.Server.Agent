@@ -23,8 +23,8 @@ steps:
     Dockerfile: Dockerfile
     arguments: --build-arg BUILD_VERSION=$(Build.BuildNumber)
     tags: |
-    latest
-    $(Build.BuildNumber)
+      latest
+      $(Build.BuildNumber)
 
 - task: Docker@2
   displayName: Push Image (docker-hub) - EventHorizon.Game.Server.Agent 
@@ -34,6 +34,6 @@ steps:
     repository: canhorn/ehz-platform-server-agent
     Dockerfile: Dockerfile
     tags: |
-    latest
-    $(Build.BuildNumber)
+      latest
+      $(Build.BuildNumber)
 
